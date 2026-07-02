@@ -1,33 +1,22 @@
+# 站点基础信息
 title: BDR927的博客
-description: 个人学习随笔与技术笔记
-url: "https://BDR927.github.io"
+description: 个人学习笔记
+url: https://BDR927.github.io
 baseurl: ""
+
+# 指定远程主题（核心，缺一不可）
 remote_theme: cotes2020/jekyll-theme-chirpy
+
+# 时区
 timezone: Asia/Shanghai
 
+# 分页
 paginate: 10
-paginate_path: "/page/:num/"
+paginate_path: "/page/:num"
+
+# Markdown解析器
 markdown: kramdown
-post_date_format: "%Y-%m-%d"
 
-author:
-  name: BDR927
-  email: test@xxx.com
-
-navbar:
-  links:
-    - name: 首页
-      url: /
-    - name: 分类
-      url: /categories/
-    - name: 标签
-      url: /tags/
-    - name: 关于
-      url: /about/
-
-robots: allow
-sitemap: true
+# 关闭评论（无配置就关闭，杜绝报错）
 comments:
   active: false
-code_block:
-  line_numbers: true
