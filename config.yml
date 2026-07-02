@@ -1,7 +1,0 @@
-baseURL: "https://BDR927.github.io/"
-languageCode: zh-cn
-title: "我的个人博客"
-theme: PaperMod
-enableRobotsTXT: true  # 自动生成robots.txt，告诉搜索引擎可以爬取你的博客
-sitemap:
-  changeFreq: weekly
